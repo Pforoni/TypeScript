@@ -57,4 +57,10 @@ cart = {
     key: 1
 }
 
+// type inference
+// A variavel é tipada a partir do primeiro tipo de valor que é atribuido a ela
+let message2 = "se torna string"
+
+
+
 
