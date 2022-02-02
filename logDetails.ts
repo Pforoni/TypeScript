@@ -23,6 +23,8 @@ function getPlatform(plat: Platform){
     return plat;
 }
 
+
+
 logDetails(12, "Bar");
 logDetails("111", "tenis");
 

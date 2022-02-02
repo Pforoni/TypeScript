@@ -32,3 +32,11 @@ class CreateGame {
 }
 tlou.getSimilars("COD");
 tlou.getSimilars(tlou.title);
+const testeUnionInterface = {
+    a: "bla",
+    b: "foo"
+};
+// vantagem: quando estiver criando libs, prefira interfaces!
+// porque sao mais extensiveis
+//Video de referencia: types vs interface
+//https://youtu.be/PMhd1ebCGl8?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_

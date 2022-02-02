@@ -58,3 +58,26 @@ class CreateGame implements IGame {
 tlou.getSimilars("COD");
 tlou.getSimilars(tlou.title);
 
+//Não é possível definer Tuplas na interface
+
+//Pode ter multiplas declaraçoes de interface com o mesmo nome,
+
+//e o compilar une as interfaces com o mesmo nome
+interface JQuery {
+    a: string;
+}
+
+interface JQuery {
+    b: string;
+}
+
+const testeUnionInterface: JQuery = {
+    a: "bla",
+    b: "foo"
+}
+
+// vantagem: quando estiver criando libs, prefira interfaces!
+// porque sao mais extensiveis
+
+//Video de referencia: types vs interface
+//https://youtu.be/PMhd1ebCGl8?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_
