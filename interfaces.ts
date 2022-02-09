@@ -52,7 +52,6 @@ class CreateGame implements IGame {
     getSimilars(title: string) {
         console.log("teste2");
     }
-
 }
 
 tlou.getSimilars("COD");

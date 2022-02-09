@@ -7,3 +7,6 @@
 
 ## Arquivo tsconfig.json
 ### Propriedade outputDir é utlizada para informar onde devem ficar os arquivos compilados
+
+### Teste arquivo isolado
+nodemon dist/<arquivo.js>
